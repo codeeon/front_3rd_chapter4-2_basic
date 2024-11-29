@@ -3,7 +3,7 @@ name: Lighthouse CI
 on:
   push:
     branches:
-      - main
+      - codeeon
   workflow_dispatch:
     inputs:
       url:

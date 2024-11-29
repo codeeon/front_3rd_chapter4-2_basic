@@ -146,12 +146,15 @@
     </header>
 
     <section class="hero">
+      <link rel="preload" as="image" href="images/Hero_Desktop.webp" fetchpriority="high" />
       <img
         class="desktop"
         src="images/Hero_Desktop.webp"
         alt="VR headset desktop hero image"
         width="1920"
         height="1080"
+        loading="eager"
+        fetchpriority="high"
       />
       <img
         class="mobile"
@@ -159,6 +162,7 @@
         alt="VR headset mobile hero image"
         width="768"
         height="1024"
+        loading="lazy"
       />
       <img
         class="tablet"
@@ -166,6 +170,7 @@
         alt="VR headset tablet hero image"
         width="1024"
         height="768"
+        loading="lazy"
       />
 
       <div class="hero-content">
